@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghana-card-validator"
+version = "0.1.0"
+description = "A lightweight Python library to validate the format of Ghana Card (NIA) ID numbers."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name"}
+]
+keywords = ["ghana", "ghana-card", "validation", "nia", "id-validator"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+include = ["ghana_card_validator*"]
